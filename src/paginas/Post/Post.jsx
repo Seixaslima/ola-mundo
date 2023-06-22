@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Post.module.css';
 import './Post.css';
-import { Routes, useParams, Route } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import posts from 'json/posts.json';
 import PostModelo from 'componentes/PostModelo/PostModelo';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
